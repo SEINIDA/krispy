@@ -293,6 +293,7 @@ section>h2{
   .slides > .slides-container > p > a {
       display: block;
       height: 601px;
+      
   }
   
   .slides > .slides-pagination {
@@ -368,18 +369,19 @@ section>h2{
   }
   
   /* 이전, 다음 */
-  /* .slides > a {
+  .slides > a {
       display: block;
       position: absolute;
-      top: 50%;
+      top: 0%;
       width: 80px;
       height: 100px;
       margin-top: -50px;
       text-indent: -9999px;
       background-image: url(./../images/btn_navigation.png);
-  } */
+  } 
   
   .slides > a.prev {
+  
       left: 0;
       background-position: -5px -225px;
   }
@@ -389,6 +391,7 @@ section>h2{
   }
   
   .slides > a.next {
+      
       right: 0;
       background-position: -5px -5px;
   }
