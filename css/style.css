@@ -1,6 +1,6 @@
   #wrap{
     width: 1900px;
-    
+    overflow: hidden;
   }
 
 #wrap > header {
